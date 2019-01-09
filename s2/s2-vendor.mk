@@ -436,6 +436,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/leeco/s2/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/leeco/s2/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
+    vendor/leeco/s2/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
+    vendor/leeco/s2/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/leeco/s2/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/leeco/s2/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
     vendor/leeco/s2/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
