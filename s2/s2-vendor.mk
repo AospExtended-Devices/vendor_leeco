@@ -450,9 +450,9 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:system/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/leeco/s2/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/leeco/s2/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
+    vendor/leeco/s2/proprietary/vendor/bin/DR_AP_Service:system/vendor/bin/DR_AP_Service \
     vendor/leeco/s2/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/leeco/s2/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
-    vendor/leeco/s2/proprietary/vendor/bin/DR_AP_Service:system/vendor/bin/DR_AP_Service \
     vendor/leeco/s2/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
     vendor/leeco/s2/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
     vendor/leeco/s2/proprietary/vendor/bin/garden_app:system/vendor/bin/garden_app \
@@ -874,15 +874,15 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.0 \
     libthermalclient \
     QtiTelephonyService \
-    ims \
-    imssettings \
     uceShimService \
     CNEService \
     dpmserviceapp \
+    ims \
     qcrilmsgtunnel \
     PowerOffAlarm \
     TimeService \
     UEIQuicksetSDKLeTV \
+    imssettings \
     QtiTelephonyServicelibrary \
     qcrilhook \
     qti-telephony-common
