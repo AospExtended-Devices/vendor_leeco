@@ -412,6 +412,11 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/leeco/s2/proprietary/lib/rfsa/adsp/libqvr_adsp_driver_skel.so:system/lib/rfsa/adsp/libqvr_adsp_driver_skel.so \
     vendor/leeco/s2/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
+    vendor/leeco/s2/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so \
+    vendor/leeco/s2/proprietary/lib/vendor.qti.gnss@1.1.so:system/lib/vendor.qti.gnss@1.1.so \
+    vendor/leeco/s2/proprietary/lib/vendor.qti.gnss@1.2.so:system/lib/vendor.qti.gnss@1.2.so \
+    vendor/leeco/s2/proprietary/lib/vendor.qti.gnss@2.0.so:system/lib/vendor.qti.gnss@2.0.so \
+    vendor/leeco/s2/proprietary/lib/vendor.qti.gnss@2.1.so:system/lib/vendor.qti.gnss@2.1.so \
     vendor/leeco/s2/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/leeco/s2/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so \
     vendor/leeco/s2/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
