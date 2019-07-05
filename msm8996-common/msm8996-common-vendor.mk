@@ -214,6 +214,9 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/leeco/msm8996-common/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/leeco/msm8996-common/proprietary/lib64/libmmi_jni.so:system/lib64/libmmi_jni.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libkeymaster_messages-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_messages-v27.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libkeymaster_portable-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_portable-v27.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libkeymaster_staging-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_staging-v27.so \
     vendor/leeco/msm8996-common/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
     vendor/leeco/msm8996-common/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
     vendor/leeco/msm8996-common/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
@@ -223,6 +226,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/lib64/libsd_sdk_display.so:system/lib64/libsd_sdk_display.so \
     vendor/leeco/msm8996-common/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
     vendor/leeco/msm8996-common/proprietary/lib64/libsensor1.so:system/lib64/libsensor1.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libsoftkeymaster-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoftkeymaster-v27.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libsoftkeymasterdevice-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoftkeymasterdevice-v27.so \
     vendor/leeco/msm8996-common/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
     vendor/leeco/msm8996-common/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
     vendor/leeco/msm8996-common/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
@@ -882,6 +887,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/hw/activity_recognition.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.msm8996.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/hw/gatekeeper.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8996.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/hw/keystore.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8996.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/hw/sound_trigger.primary.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.msm8996.so \
