@@ -397,8 +397,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/leeco/s2/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/leeco/s2/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
-    vendor/leeco/s2/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
-    vendor/leeco/s2/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/leeco/s2/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/leeco/s2/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/leeco/s2/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
@@ -436,6 +434,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/product/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar:system/product/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar \
     vendor/leeco/s2/proprietary/product/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar:system/product/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar \
     vendor/leeco/s2/proprietary/product/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/product/lib64/com.qualcomm.qti.dpm.api@1.0.so \
+    vendor/leeco/s2/proprietary/product/lib64/libaptXHD_encoder.so:system/product/lib64/libaptXHD_encoder.so \
+    vendor/leeco/s2/proprietary/product/lib64/libaptX_encoder.so:system/product/lib64/libaptX_encoder.so \
     vendor/leeco/s2/proprietary/product/lib64/libdpmctmgr.so:system/product/lib64/libdpmctmgr.so \
     vendor/leeco/s2/proprietary/product/lib64/libdpmfdmgr.so:system/product/lib64/libdpmfdmgr.so \
     vendor/leeco/s2/proprietary/product/lib64/libdpmframework.so:system/product/lib64/libdpmframework.so \
