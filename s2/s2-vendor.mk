@@ -424,6 +424,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/product/etc/permissions/dpmapi.xml:system/product/etc/permissions/dpmapi.xml \
     vendor/leeco/s2/proprietary/product/framework/com.qti.dpmframework.jar:system/product/framework/com.qti.dpmframework.jar \
     vendor/leeco/s2/proprietary/product/framework/dpmapi.jar:system/product/framework/dpmapi.jar \
+    vendor/leeco/s2/proprietary/product/framework/qti-telephony-common.jar:system/product/framework/qti-telephony-common.jar \
     vendor/leeco/s2/proprietary/product/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/product/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/leeco/s2/proprietary/product/lib64/com.quicinc.cne.api@1.0.so:system/product/lib64/com.quicinc.cne.api@1.0.so \
     vendor/leeco/s2/proprietary/product/lib64/com.quicinc.cne.api@1.1.so:system/product/lib64/com.quicinc.cne.api@1.1.so \
@@ -871,5 +872,4 @@ PRODUCT_PACKAGES += \
     QPerformance \
     QtiTelephonyServicelibrary \
     UxPerformance \
-    qcrilhook \
-    qti-telephony-common
+    qcrilhook
