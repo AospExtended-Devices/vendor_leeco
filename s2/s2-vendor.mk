@@ -339,6 +339,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib/libsta_lib_third_party_staproxy_sta_proxy_loader_gyp.so:system/vendor/lib/libsta_lib_third_party_staproxy_sta_proxy_loader_gyp.so \
     vendor/leeco/s2/proprietary/vendor/lib/libstlport_sta.so:system/vendor/lib/libstlport_sta.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libChamomilePA.so:system/vendor/lib64/libChamomilePA.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libbase-hax.so:system/vendor/lib64/libbase-hax.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libmmcamera2_is.so:system/vendor/lib64/libmmcamera2_is.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
