@@ -443,10 +443,11 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/leeco/s2/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
     vendor/leeco/s2/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
+    vendor/leeco/s2/proprietary/vendor/bin/garden_app:system/vendor/bin/garden_app \
     vendor/leeco/s2/proprietary/vendor/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
     vendor/leeco/s2/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/leeco/s2/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.2-service.widevine \
-    vendor/leeco/s2/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
+    vendor/leeco/s2/proprietary/vendor/bin/hw/android.hardware.gnss@2.0-service-qti:system/vendor/bin/hw/android.hardware.gnss@2.0-service-qti \
     vendor/leeco/s2/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service \
     vendor/leeco/s2/proprietary/vendor/bin/hw/vendor.qti.hardware.iop@2.0-service:system/vendor/bin/hw/vendor.qti.hardware.iop@2.0-service \
     vendor/leeco/s2/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
@@ -472,10 +473,13 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/leeco/s2/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/leeco/s2/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
+    vendor/leeco/s2/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/leeco/s2/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/leeco/s2/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/leeco/s2/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/leeco/s2/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
+    vendor/leeco/s2/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
+    vendor/leeco/s2/proprietary/vendor/bin/xtwifi-inet-agent:system/vendor/bin/xtwifi-inet-agent \
     vendor/leeco/s2/proprietary/vendor/etc/UEISettings:system/vendor/etc/UEISettings \
     vendor/leeco/s2/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/leeco/s2/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml \
@@ -510,14 +514,16 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
     vendor/leeco/s2/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/leeco/s2/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc \
+    vendor/leeco/s2/proprietary/vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc:system/vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc \
     vendor/leeco/s2/proprietary/vendor/etc/init/cnd.rc:system/vendor/etc/init/cnd.rc \
     vendor/leeco/s2/proprietary/vendor/etc/init/dpmQmiMgr.rc:system/vendor/etc/init/dpmQmiMgr.rc \
     vendor/leeco/s2/proprietary/vendor/etc/init/init.time_daemon.rc:system/vendor/etc/init/init.time_daemon.rc \
-    vendor/leeco/s2/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc \
     vendor/leeco/s2/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
     vendor/leeco/s2/proprietary/vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc \
     vendor/leeco/s2/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/leeco/s2/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
+    vendor/leeco/s2/proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml:system/vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml \
+    vendor/leeco/s2/proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml:system/vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml \
     vendor/leeco/s2/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/leeco/s2/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so \
     vendor/leeco/s2/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
@@ -600,6 +606,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib/libmmsw_opencl.so:system/vendor/lib/libmmsw_opencl.so \
     vendor/leeco/s2/proprietary/vendor/lib/libmmsw_platform.so:system/vendor/lib/libmmsw_platform.so \
     vendor/leeco/s2/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/leeco/s2/proprietary/vendor/lib/libpdmapper.so:system/vendor/lib/libpdmapper.so \
     vendor/leeco/s2/proprietary/vendor/lib/libperfgluelayer.so:system/vendor/lib/libperfgluelayer.so \
     vendor/leeco/s2/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/leeco/s2/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
@@ -645,6 +652,12 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/leeco/s2/proprietary/vendor/lib/vendor.display.color@1.0_vendor.so:system/vendor/lib/vendor.display.color@1.0_vendor.so \
     vendor/leeco/s2/proprietary/vendor/lib/vendor.display.postproc@1.0_vendor.so:system/vendor/lib/vendor.display.postproc@1.0_vendor.so \
+    vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.gnss@1.0.so:system/vendor/lib/vendor.qti.gnss@1.0.so \
+    vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.gnss@1.1.so:system/vendor/lib/vendor.qti.gnss@1.1.so \
+    vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.gnss@1.2.so:system/vendor/lib/vendor.qti.gnss@1.2.so \
+    vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.gnss@2.0.so:system/vendor/lib/vendor.qti.gnss@2.0.so \
+    vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.gnss@2.1.so:system/vendor/lib/vendor.qti.gnss@2.1.so \
+    vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.gnss@3.0.so:system/vendor/lib/vendor.qti.gnss@3.0.so \
     vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so:system/vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so \
     vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so:system/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so:system/vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so \
@@ -677,10 +690,11 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
     vendor/leeco/s2/proprietary/vendor/lib64/hw/activity_recognition.msm8952.so:system/vendor/lib64/hw/activity_recognition.msm8952.so \
     vendor/leeco/s2/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so:system/vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so \
     vendor/leeco/s2/proprietary/vendor/lib64/hw/audio.bluetooth_qti.default.so:system/vendor/lib64/hw/audio.bluetooth_qti.default.so \
     vendor/leeco/s2/proprietary/vendor/lib64/hw/gatekeeper.msm8952.so:system/vendor/lib64/hw/gatekeeper.msm8952.so \
     vendor/leeco/s2/proprietary/vendor/lib64/hw/keystore.msm8952.so:system/vendor/lib64/hw/keystore.msm8952.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so \
     vendor/leeco/s2/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so \
     vendor/leeco/s2/proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so \
     vendor/leeco/s2/proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so \
@@ -702,7 +716,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib64/lib-uceservice.so:system/vendor/lib64/lib-uceservice.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
@@ -720,6 +733,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libbatching.so:system/vendor/lib64/libbatching.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libbluetooth_audio_session_qti.so:system/vendor/lib64/libbluetooth_audio_session_qti.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libbt-hidlclient.so:system/vendor/lib64/libbt-hidlclient.so \
@@ -738,12 +752,13 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib64/libdpmqmihal.so:system/vendor/lib64/libdpmqmihal.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/libdrplugin_client.so:system/vendor/lib64/libdrplugin_client.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/libevent_observer.so:system/vendor/lib64/libevent_observer.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libgeofencing.so:system/vendor/lib64/libgeofencing.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libgnss.so:system/vendor/lib64/libgnss.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libgnsspps.so:system/vendor/lib64/libgnsspps.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libgps.utils.so:system/vendor/lib64/libgps.utils.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
@@ -753,11 +768,12 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/libloc_api_v02.so:system/vendor/lib64/libloc_api_v02.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/libloc_ds_api.so:system/vendor/lib64/libloc_ds_api.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libloc_core.so:system/vendor/lib64/libloc_core.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/liblocation_api.so:system/vendor/lib64/liblocation_api.so \
     vendor/leeco/s2/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/leeco/s2/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
     vendor/leeco/s2/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
     vendor/leeco/s2/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
@@ -765,11 +781,13 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib64/libmm-qdcm-diag.so:system/vendor/lib64/libmm-qdcm-diag.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libpdmapper.so:system/vendor/lib64/libpdmapper.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libperfgluelayer.so:system/vendor/lib64/libperfgluelayer.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libqdma_file_agent.so:system/vendor/lib64/libqdma_file_agent.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
@@ -779,6 +797,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libqsocket.so:system/vendor/lib64/libqsocket.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libqti-iopd-client.so:system/vendor/lib64/libqti-iopd-client.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libqti-iopd.so:system/vendor/lib64/libqti-iopd.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
@@ -799,18 +818,17 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libslimclient.so:system/vendor/lib64/libslimclient.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib64/libtime_genoff.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libwvhidl.so:system/vendor/lib64/libwvhidl.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/leeco/s2/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/leeco/s2/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/leeco/s2/proprietary/vendor/lib64/soundfx/libasphere.so:system/vendor/lib64/soundfx/libasphere.so \
@@ -821,6 +839,12 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.display.postproc@1.0_vendor.so:system/vendor/lib64/vendor.display.postproc@1.0_vendor.so \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:system/vendor/lib64/vendor.qti.data.factory@2.0.so \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.gnss@1.0.so:system/vendor/lib64/vendor.qti.gnss@1.0.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.gnss@1.1.so:system/vendor/lib64/vendor.qti.gnss@1.1.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.gnss@1.2.so:system/vendor/lib64/vendor.qti.gnss@1.2.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.gnss@2.0.so:system/vendor/lib64/vendor.qti.gnss@2.0.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.gnss@2.1.so:system/vendor/lib64/vendor.qti.gnss@2.1.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.gnss@3.0-service.so:system/vendor/lib64/vendor.qti.gnss@3.0-service.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.gnss@3.0.so:system/vendor/lib64/vendor.qti.gnss@3.0.so \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:system/vendor/lib64/vendor.qti.hardware.alarm@1.0.so \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so:system/vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so:system/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so \
@@ -858,6 +882,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.display.color@1.0 \
     libthermalclient \
+    libloc_api_v02 \
     QtiTelephonyService \
     uceShimService \
     ims \
